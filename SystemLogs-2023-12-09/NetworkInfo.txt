@@ -1,0 +1,160 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : nosp-desktop
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 12-6F-D9-DC-DC-CD
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 10:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : 12-6F-D9-DC-CC-DD
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : RZ608 Wi-Fi 6E 80MHz
+   Physical Address. . . . . . . . . : 10-6F-D9-DC-FC-ED
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::bfe1:b0ef:f1c6:249f%4(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.50.91(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Friday, December 8, 2023 10:20:35 PM
+   Lease Expires . . . . . . . . . . : Sunday, December 10, 2023 1:06:33 PM
+   Default Gateway . . . . . . . . . : 192.168.50.1
+   DHCP Server . . . . . . . . . . . : 192.168.50.1
+   DHCPv6 IAID . . . . . . . . . . . : 51408857
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2C-FE-F3-78-C8-7F-54-04-BB-B0
+   DNS Servers . . . . . . . . . . . : 192.168.50.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physical Address. . . . . . . . . : 10-6F-D9-DC-FC-EE
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Realtek Gaming 2.5GbE Family Controller
+   Physical Address. . . . . . . . . : C8-7F-54-04-BB-B0
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Pinging www.google.com [142.250.74.132] with 32 bytes of data:
+Reply from 142.250.74.132: bytes=32 time=37ms TTL=115
+Reply from 142.250.74.132: bytes=32 time=37ms TTL=115
+Reply from 142.250.74.132: bytes=32 time=25ms TTL=115
+Reply from 142.250.74.132: bytes=32 time=34ms TTL=115
+
+Ping statistics for 142.250.74.132:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 25ms, Maximum = 37ms, Average = 33ms
+
+Domain profile configuration:
+-------------------------------------------------------------------
+Operational mode                  = Enable
+Exception mode                    = Enable
+Multicast/broadcast response mode = Enable
+Notification mode                 = Enable
+
+Allowed programs configuration for Domain profile:
+Mode     Traffic direction    Name / Program
+-------------------------------------------------------------------
+
+Port configuration for Domain profile:
+Port   Protocol  Mode    Traffic direction     Name
+-------------------------------------------------------------------
+
+Standard profile configuration (current):
+-------------------------------------------------------------------
+Operational mode                  = Enable
+Exception mode                    = Enable
+Multicast/broadcast response mode = Enable
+Notification mode                 = Enable
+
+Service configuration for Standard profile:
+Mode     Customized  Name
+-------------------------------------------------------------------
+Enable   No          Network Discovery
+
+Allowed programs configuration for Standard profile:
+Mode     Traffic direction    Name / Program
+-------------------------------------------------------------------
+Enable   Inbound              AsusLinkRemoteAgent / C:\WINDOWS\System32\DriverStore\FileRepository\asussci2.inf_amd64_5e38ce8081e93b46\ASUSLinkRemote\AsusLinkRemoteAgent.exe
+
+Port configuration for Standard profile:
+Port   Protocol  Mode    Traffic direction     Name
+-------------------------------------------------------------------
+
+Log configuration:
+-------------------------------------------------------------------
+File location   = C:\WINDOWS\system32\LogFiles\Firewall\pfirewall.log
+Max file size   = 4096 KB
+Dropped packets = Disable
+Connections     = Disable
+
+IMPORTANT: Command executed successfully.
+However, "netsh firewall" is deprecated;
+use "netsh advfirewall firewall" instead.
+For more information on using "netsh advfirewall firewall" commands
+instead of "netsh firewall", see KB article 947709
+at https://go.microsoft.com/fwlink/?linkid=121488 .
+
+
+
+       MTU  MediaSenseState      Bytes In     Bytes Out  Interface
+----------  ---------------  ------------  ------------  -------------
+4294967295                1             0          6845  Loopback Pseudo-Interface 1
+      1500                1    3359001312     175897996  Wi-Fi
+      1500                5             0             0  Ethernet
+      1500                5             0             0  Local Area Connection* 1
+      1500                5             0             0  Bluetooth Network Connection
+      1500                5             0             0  Local Area Connection* 10
+
+MIB-II IP Statistics
+------------------------------------------------------
+Forwarding is:                      Disabled
+Default TTL:                        128
+In Receives:                        4241499
+In Header Errors:                   0
+In Address Errors:                  23622
+Datagrams Forwarded:                0
+In Unknown Protocol:                0
+In Discarded:                       33614
+In Delivered:                       4200110
+Out Requests:                       1825533
+Routing Discards:                   0
+Out Discards:                       9
+Out No Routes:                      0
+Reassembly Timeout:                 60
+Reassembly Required:                0
+Reassembled Ok:                     0
+Reassembly Failures:                0
+Fragments Ok:                       0
+Fragments Failed:                   0
+Fragments Created:                  0
+
+
